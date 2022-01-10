@@ -14,7 +14,7 @@
 	        return false;
 	    }else{
 	    	 var http = new XMLHttpRequest();
-	    	    http.open("POST", "http://localhost:8080/test1/input.jsp", false);
+	    	    http.open("POST", "http://localhost:8080/sasha_bar/input.jsp", false);
 	    	    http.setRequestHeader("Content-type","application/x-www-form-urlencoded");
 	    	    var params = "param1=" + n; // probably use document.getElementById(...).value
 	    	    http.send(params);

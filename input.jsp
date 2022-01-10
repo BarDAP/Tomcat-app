@@ -5,7 +5,7 @@
 <%@ page import="java.io.*" %>
 <%
 String name=(String)request.getParameter("param1");
-String file = application.getRealPath("/") + "test.txt";
+String file = application.getRealPath("/") + "text.txt";
 FileWriter filewriter = new FileWriter(file, true);
 filewriter.write("Email: " + name + "\n");
 filewriter.close();
